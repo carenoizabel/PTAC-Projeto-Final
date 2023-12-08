@@ -17,7 +17,7 @@ export default function Menu () {
   <div className="playlist">
     <h3>Playlists</h3>
     <ul>
-      <li><Link to = {"/"}><img src="albumtaylor.jpeg" alt="" className="albumplay" />   Minha Playlist</Link></li>
+      <li><Link to = {"/musica"}><img src="albumtaylor.jpeg" alt="" className="albumplay" />   Minha Playlist</Link></li>
       <li><a href="#"><i className="fas fa-heart"></i> Últimas Escutadas</a></li>
       <li><Link to = {"/register"}><i className="fas fa-plus"></i> Adicionar a Playlist</ Link></li>
     </ul>
