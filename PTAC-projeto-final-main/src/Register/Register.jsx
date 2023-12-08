@@ -8,8 +8,11 @@ export default function Register() {
   const [lista, setLista] = useState(listaLocalStorage);
 
   const [id, setId] = useState(listaLocalStorage [listaLocalStorage.length - 1]?.id + 1 || 1);
-  const [Nome, setNome] = useState("");
-  const [Email, setEmail] = useState("");
+  const [nomeMusica, setNomeMusica] = useState("");
+  const [url, setUrl] = useState("");
+  const [artista, setArtista] = useState("");
+  const [album, setAlbum] = useState("");
+  const [anoLancado, setAnoLancado] = useState("");
 
   useEffect(() => {localStorage.setItem("Lista", JSON.stringify(lista))},[lista]);
 
@@ -19,8 +22,8 @@ export default function Register() {
       ...lista,
       {
         id: id,
-        Nome: Nome,
-        Email: Email,
+        url: url,
+        nomeMusica: nomeMusica,
       },
     ]);
     setId(id + 1);
