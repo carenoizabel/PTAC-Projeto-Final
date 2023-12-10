@@ -59,7 +59,8 @@ export default function Register() {
                 <p><FaBell /></p>
                 <p><FaUsers /></p>
                 </div>
-                <div className="container">
+                <h2>Adicionar à Playlist</h2>
+                <div className="container-form">
         <form onSubmit={salvar}>
                 <input type="text" value={url} onChange={(e) => setUrl(e.target.value)} placeholder="URL da Música" />
                 <input type="text" value={nomeMusica} onChange={(e) => setNomeMusica(e.target.value)} placeholder="Nome da Música" />
