@@ -1,3 +1,4 @@
-export default function Home() {
-    
-}
+export default function MusicaIndi ({ musica }) {
+    return(
+        
+    )
