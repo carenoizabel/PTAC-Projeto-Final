@@ -33,6 +33,7 @@
   .config {
     display: flex;
     align-items: center;
+    justify-content: flex-end;
   }
   
   .config p {

@@ -1,7 +1,8 @@
 import { useEffect, useState } from "react";
-import { Link, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import Menu from "../Componentes/Menu.jsx";
 import '@fortawesome/fontawesome-free/css/all.css';
+import { FaBell, FaUsers } from 'react-icons/fa';
 import img from "../../public/imguser.png"
 
 import "./register.css";
@@ -55,8 +56,8 @@ export default function Register() {
                      <p> Olá, Izabel</p>
                 </div>
                 <div className="config">
-                    <p><i className="fa-regular fa-bell"></i></p>
-                    <p><i className="fa-light fa-users"></i></p>
+                <p><FaBell /></p>
+                <p><FaUsers /></p>
                 </div>
                 <div className="container">
         <form onSubmit={salvar}>

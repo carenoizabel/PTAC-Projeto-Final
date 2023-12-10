@@ -1,6 +1,7 @@
 import Menu from "../Componentes/Menu.jsx";
 import "./home.css";
 import '@fortawesome/fontawesome-free/css/all.css';
+import { FaBell, FaUsers } from 'react-icons/fa';
 import img from "../../public/imguser.png"
 export default function Home() {
     return (
@@ -15,8 +16,8 @@ export default function Home() {
                      <p> Olá, Izabel</p>
                 </div>
                 <div className="config">
-                    <p><i className="fa-regular fa-bell"></i></p>
-                    <p><i className="fa-light fa-users"></i></p>
+                <p><FaBell /></p>
+                <p><FaUsers /></p>
                 </div>
             </div>
         </div>
