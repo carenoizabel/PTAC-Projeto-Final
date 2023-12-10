@@ -1,7 +1,8 @@
-import React from "react";
+import { useEffect, useState } from "react";
+import "./musica.css";
 
-export default function Musica (musica){
-    const {titulo, artista, genero, duracao, anolancado, imagem} = musica;
+export default function Musica (){
+
 
 return (
     <div>
